@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Juma's Bistro: Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+  <style>
+    body {background-color: khaki}
+    table {background-color: lightgreen; font-family: Arial;}
+    th {background-color: #C0C0C0; font-family: verdana;}
+    h2 {color: brown;}
+  </style>
+</head>
+<body>
+    <h1 align="center">Juma's Bistro</h1>
+    <h2>Contact Us</h2>
+    <hr/>
+    <h4><pre><strong><a href="index.html">Home</a>   <a href="menu.html">Menu</a>   <a href="contact.html">Contact Us</a></strong></pre></h4>
+    <hr/>
+    <blockquote>
+    <form action="#" method="POST">
+      
+    <p>
+        <label id="nameLabel" for="name">Name: </label>
+        <input id="name" name="name" type="text"/></br>
+    </p>
+    <p>
+        <label id="emailLabel" for="email">Email: </label>
+        <input id="email" name="email" type="text"/>
+    </p>
+    <p>
+        <label id="phoneLabel" for="phone">Phone: </label>
+        <input id="phone" name="phone" type="text"/>
+    <p>
+        <label id="selectionLabel" for="selection">Reason for Inquiry: </label>
+        <select>
+            <option value="catering">Catering</option>
+            <option value="privateParty">Private Party</option>
+            <option value="feddback">Feedback</option>
+            <option value="other">Other</option>
+        </select>
+    </p>
+    <p>
+       <label id="messageLabel" for="message">Additional Information: </label>
+       <textarea id="message" name="message"></textarea>
+    </p>
+    </p>    
+        <label id="visitLabel" for="visit">Have You Been To The Restaurant? </label>
+        <input type="radio" name="visit" value="yes" checked/>No
+        <input type="radio" name="visit" value="no"/>Yes
+    </p>
+    <P>
+        <label id="contactLabel" for="contact">Best Days To Contact You: 
+        <input type="checkbox" name="contact" value="termsOfService"/>M 
+        <input type="checkbox" name="contact" value="termsOfService"/>T 
+        <input type="checkbox" name="contact" value="termsOfService"/>W 
+        <input type="checkbox" name="contact" value="termsOfService"/>Th 
+        <input type="checkbox" name="contact" value="termsOfService"/>F 
+    </P>
+    <p align="center">
+       <input type="submit" id="submitButton" value"Send Request"/>
+    </p>
+  </form>
+</blockquote>
+<hr/>
+  <div align="center">
+     <footer class = "footerText">
+        415 Tamarisk Court, Eastside, MN, 55104<br/>
+        Telephone: 612 345 6789
+    </footer>
+  </div>
+</body>
+</html>
