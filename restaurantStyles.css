@@ -1,7 +1,49 @@
+body {
+    background-color: khaki;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+table {
+    background-color: royalblue;
+    font-family: "comic sans ms";
+    text-align: center;
+    border-spacing: 20px;     
+}
+
+th {
+    background-color: #fff;
+    font-size: 20px;
+}
+h2 {
+    color: brown;
+}
+
+.headerText{
+    font-family: "Eras Light ITC";
+    font-size: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
 .footerText {
-    width: 300px; 
+    width: 350px; 
     border: dotted solid grey; 
-    background-color: gold; 
+    background-color: #fff; 
     text-align: center; 
-    font-family: verdana; font-size: 20px;
+    font-family: tahoma; 
+    font-size: 15px;
+}
+.menuItems {
+    border: solid black 1px;
+    font: bolder 30px;
+    font-family: "comic sans ms";
+}
+label {
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: white;
+    max-width: 100%;
 }
