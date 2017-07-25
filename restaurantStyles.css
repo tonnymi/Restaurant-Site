@@ -3,14 +3,26 @@ body {
     padding-left: 50px;
     padding-right: 50px;
 }
-
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: chocolate;
+}
+a:hover {
+  font-weight: bold;
+}
+a:active {
+  text-decoration: none;
+}
 table {
-    background-color: royalblue;
+    background-color: steelblue;
     font-family: "comic sans ms";
     text-align: center;
-    border-spacing: 20px;     
+    border-spacing: 20px;
+    border: 1px solid black;
 }
-
 th {
     background-color: #fff;
     font-size: 20px;
@@ -18,19 +30,17 @@ th {
 h2 {
     color: brown;
 }
-
 .headerText{
     font-family: "Eras Light ITC";
     font-size: 50px;
     text-align: center;
     background-color: #fff;
 }
-
 .footerText {
     width: 350px; 
     border: dotted solid grey; 
     background-color: #fff; 
-    text-align: center; 
+    text-align: center;
     font-family: tahoma; 
     font-size: 15px;
 }
@@ -42,8 +52,13 @@ h2 {
 label {
     font-weight: bold;
 }
-
 .navigation {
     background-color: white;
     max-width: 100%;
+}
+.bevMenu{
+    text-align: right;
+}
+.bevMenu2{
+    text-align: center;
 }
