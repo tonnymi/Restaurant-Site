@@ -2,20 +2,29 @@
 <html lang="en">
 <head>
 <title>Juma's Bistro: Contact Us</title>
-<link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+    <!-- Latest compiled and minified CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div class="container-fluid">
     <h1 class="headerText">Juma's Bistro</h1>
     <h2>Contact Us</h2>
     <hr/>
-    <p>
-        <a href="index.html">Home</a>&nbsp;&nbsp;
-        <a href="menu.html">Menu</a>&nbsp;&nbsp;
-        Contact Us
-    </p>
+     <div class="navigation">
+        <ul class="nav nav-pills">
+            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li class="active"><a href="#">Contact</a></li>
+        </ul>
+    </div>
     <hr/>
-    <blockquote>
-        <form action="#" method="POST">      
+    <form action="#" method="POST">
         <p>
             <label id="nameLabel" for="name">Name: </label>
             <input id="name" name="name" type="text"/></br>
@@ -37,10 +46,10 @@
             </select>
         </p>
         <p>
-        <label id="messageLabel" for="message">Additional Information: </label>
-        <textarea id="message" name="message"></textarea>
+            <label id="messageLabel" for="message">Additional Information: </label>
+            <textarea id="message" name="message"></textarea>
         </p>
-        </p>    
+        </p>
             <label id="visitLabel" for="visit">Have You Been To The Restaurant? </label>
             <input type="radio" name="visit" value="yes" checked/>No
             <input type="radio" name="visit" value="no"/>Yes
@@ -54,10 +63,9 @@
             <input type="checkbox" name="contact" value="termsOfService"/>F 
         </P>
         <p align="center">
-        <input type="submit" id="submitButton" value"Send Request"/>
+            <input type="submit" id="submitButton" value"Send Request"/>
         </p>
-        </form>
-    </blockquote>
+    </form>
     <hr/>
     <div align="center">
     <footer class="footerText">
@@ -65,5 +73,6 @@
         Telephone: 612 345 6789
     </footer>
     </div>
+</div>
 </body>
 </html>

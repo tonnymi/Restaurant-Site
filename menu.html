@@ -2,19 +2,30 @@
 <html lang="en">
 <head>
     <title>Juma's Bistro: Menu</title>
-    <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+        <!-- Latest compiled and minified CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--Original Style-->
+        <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div class="container-fluid">
     <h1 class="headerText">Juma's Bistro</h1>
     <h2>Menu</h2>
     <hr/>
-    <p>
-        <a href="index.html">Home</a>&nbsp;&nbsp;
-        Menu&nbsp;&nbsp;
-        <a href="contact.html">Contact Us</a>
-    </p>
+     <div class="navigation">
+        <ul class="nav nav-pills">
+            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="active"><a href="#">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
     <hr/>
-    <table>
+    <table class="table table-responsive table-bordered">
       <caption>Juma's Bistro Menu</caption>
       <tbody>
         <tr>
@@ -43,21 +54,21 @@
                 served with our famous thick-cut french fries $7.95</td>
         </tr>
         <tr>
-            <th colspan="3">Beverages</th>
+            <th colspan="3" class="bevMenu">Beverages</th>
         </tr>
-        <tr>
+        <tr class="bevMenu">
             <td>Root Beer</td>
             <td>$3.00</td>
         </tr>
-        <tr>
+        <tr class="bevMenu">
             <td>Bottled Water</td>
             <td>$1.25</td>
         </tr>
-        <tr>
+        <tr class="bevMenu">
             <td>Lemonade</td>
             <td>$1.00</td>
         </tr>
-        <tr>
+        <tr class="bevMenu">
             <td>Iced Tea</td>
             <td>$1.25</td>
         </tr>
@@ -70,5 +81,6 @@
         Telephone: 612 345 6789
     </footer>
   </div>
+</div>
 </body>
 </html>
