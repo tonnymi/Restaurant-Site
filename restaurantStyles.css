@@ -49,9 +49,14 @@ h2 {
     font-family: tahoma; 
     font-size: 15px;
 }
+.carouselCaption {
+    font-family: "cooper black";
+    background: black;
+    color: gold
+}
 .menuItems {
-    border: solid black 1px;
-    font: bolder 30px;
+    border: 1px solid black;
+    font: 30px bolder;
     font-family: "comic sans ms";
 }
 label {

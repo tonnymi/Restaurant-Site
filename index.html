@@ -12,38 +12,80 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
-        <div class="container">
-            <div class="jumbotron page-header" align="center">
-                <h2 class="headerText">Juma's Bistro</h2>
-                <h4>Coming Soon! New Locations Near You!!</h4>
+        <div class="container-fluid col-sm-12">
+            <h2 class="headerText">Juma's Bistro</h2>
+            <!--<img src="images/jumaLogo.jpg" alt="Juma's Bistro Logo" style="width: 300px"/>-->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- SLIDE INDICATORS -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+            <!-- SLIDE WRAPPER -->
+                <div class="carousel-inner">
+                    <div class="item active" align="center">
+                        <img src="images/jumaLogo.jpg" alt="Juma's Bistro Logo" style="height: 250px">
+                        <div class="carouselCaption" align="left">
+                            <h4><br/>WELCOME! To The Best Food Experience yet!!</h4>
+                        </div>
+                    </div>
+                    <div class="item" align="center">
+                        <img src="images/newLocations.jpg" alt="New Locations" style="height: 250px">
+                        <div class="carouselCaption" align="left">
+                            <h4><br/>COMING SOON: New Locations Near you!</h4>
+                        </div>
+                    </div>
+                    <div class="item" align="center">
+                        <img src="images/newMenu.jpg" alt="New Seasonal Menu" style="height: 250px">
+                        <div class="carouselCaption" align="left">
+                            <h4><br/>NEW MENU: You'll Love This Food!</h4>
+                        </div>
+                    </div>
+                    <div class="item" align="center">
+                        <img src="images/beerOfTheMonth.jpg" alt="Beer Of The Month" style="height: 250px">
+                        <div class="carouselCaption" align="left">
+                            <h4><br/>DRINK OF THE MONTH! SG Special Brew</h4>
+                        </div>
+                    </div>
+                </div>
+            <!-- LEFT AND RIGHT CONTROLS -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-    <h2>Home</h2>
-    <hr/>
-    <div class="navigation">
-        <ul class="nav nav-pills">
-            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>    
-    <hr/>
-    <p align="center">
-        <img src="images/jumaLogo.png" alt="Juma's Bistro Logo" style="width: 400px; height: 150px; vertical-align: top;"/>
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus 
-        aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!
-    </p>
-    <p>
-        Tenetur quod quidem in voluptatem corporis dolorum dicta sit pariatur porro quaerat autem ipsam odit quam beatae tempora quibusdam 
-        illum! Modi velit odio nam nulla unde amet odit pariatur at! Consequatur rerum amet fuga expedita sunt et tempora saepe? Iusto nihil
-        explicabo perferendis quos provident delectus ducimus necessitatibus reiciendis optio tempora unde earum doloremque commodi laudantium
-        ad nulla vel odio?    
-    </p>
-    <hr/>
-    <div align="center">
+        </div>
+        <h2>Home</h2>
+        <hr/>
+        <div class="navigation">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <hr/>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel 
+        beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia 
+        quibusdam deleniti eos cupiditate dolore doloribus!
+        </p>
+        <p>
+        Tenetur quod quidem in voluptatem corporis dolorum dicta sit pariatur porro quaerat autem ipsam 
+        odit quam beatae tempora quibusdam illum! Modi velit odio nam nulla unde amet odit pariatur at! 
+        Consequatur rerum amet fuga expedita sunt et tempora saepe? Iusto nihil explicabo perferendis quos 
+        provident delectus ducimus necessitatibus reiciendis optio tempora unde earum doloremque commodi
+        laudantium ad nulla vel odio?
+        </p>
+        <hr/>
+        <div align="center">
         <footer class = "footerText">
             415 Tamarisk Court, Eastside, MN, 55104<br/>Telephone: 612 345 6789
         </footer>
